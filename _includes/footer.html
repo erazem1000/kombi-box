@@ -1,0 +1,38 @@
+{% assign lang = page.lang | default: 'sl' %}
+{% assign t = site.data[lang] %}
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="/" class="site-logo">
+          <img src="/assets/images/favicon.png" alt="" class="logo-icon" width="32" height="32">
+          <span class="logo-text">Kombi<strong>Box</strong></span>
+        </a>
+        <p class="footer-tagline">{{ t.footer.tagline }}</p>
+      </div>
+
+      <div class="footer-contact">
+        <p>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+        <p>
+          <a href="tel:{{ site.phone | remove: ' ' }}">{{ site.phone }}</a>
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#features">{{ t.nav.features }}</a>
+        <a href="#gallery">{{ t.nav.gallery }}</a>
+        <a href="#contact">{{ t.nav.contact }}</a>
+        <a href="{{ t.nav.lang_switch_url }}">{{ t.nav.lang_switch }}</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. {{ t.footer.copyright }}</p>
+    </div>
+  </div>
+</footer>

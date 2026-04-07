@@ -1,0 +1,53 @@
+// ============================================================
+// KOMBI BOX — Design Tokens
+// ============================================================
+
+// Colours
+$color-primary:     #2b2018;   // Espresso brown
+$color-accent:      #c4622d;   // Terracotta
+$color-accent-dark: #a84f22;
+$color-white:       #ffffff;
+$color-off-white:   #f7f3ed;   // Warm cream
+$color-light-gray:  #ede7dc;   // Warm sand
+$color-mid-gray:    #b0a496;   // Warm taupe
+$color-text:        #2b2018;
+$color-text-light:  #7a6e62;   // Warm gray
+$color-border:      #ddd5c8;
+$color-dark-bg:     #1a1209;   // Dark espresso
+
+// Typography
+$font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.65;
+
+// Spacing
+$space-xs:  0.5rem;
+$space-sm:  1rem;
+$space-md:  1.5rem;
+$space-lg:  2.5rem;
+$space-xl:  4rem;
+$space-2xl: 6rem;
+
+// Layout
+$container-max: 1200px;
+$container-pad: 1.5rem;
+
+// Border radius
+$radius-sm: 6px;
+$radius-md: 12px;
+$radius-lg: 20px;
+$radius-full: 9999px;
+
+// Shadows
+$shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+$shadow-md: 0 4px 16px rgba(0,0,0,.10);
+$shadow-lg: 0 12px 40px rgba(0,0,0,.15);
+
+// Transitions
+$transition: 0.25s ease;
+
+// Breakpoints
+$bp-sm:  640px;
+$bp-md:  768px;
+$bp-lg:  1024px;
+$bp-xl:  1280px;

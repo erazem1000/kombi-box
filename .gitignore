@@ -1,0 +1,22 @@
+# Jekyll build output (GitHub Pages ga zgradi sam)
+_site/
+
+# Jekyll cache
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Originalne HEIC datoteke (že konvertirane v .jpg)
+**/*.HEIC
+**/*.heic
+
+# Podvojene / začasne datoteke
+assets/images/gallery-6_.jpg

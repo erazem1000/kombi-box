@@ -1,0 +1,21 @@
+{% assign lang = page.lang | default: 'sl' %}
+{% assign t = site.data[lang] %}
+
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-header">
+      <h2>{{ t.features.title }}</h2>
+      <p class="section-subtitle">{{ t.features.subtitle }}</p>
+    </div>
+
+    <div class="features-grid">
+      {% for item in t.features.items %}
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true">{{ item.icon }}</div>
+        <h3 class="feature-title">{{ item.title }}</h3>
+        <p class="feature-text">{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,83 @@
+# Slovenian translations
+
+nav:
+  home: "Domov"
+  features: "Prednosti"
+  gallery: "Galerija"
+  contact: "Kontakt"
+  lang_switch: "English"
+  lang_switch_url: "/en/"
+
+hero:
+  headline: "Več prostora. Več reda."
+  subheadline: "Snemljive modularne škatle za kombije — organizacija tovora, ki dela z vami."
+  cta_primary: "Povprašaj zdaj"
+  cta_secondary: "Oglej si galerijo"
+
+features:
+  title: "Zakaj Kombi Box?"
+  subtitle: "Zasnovani za tiste, ki cenijo red, čas in kakovost."
+  items:
+    - icon: "🔧"
+      title: "Enostavna montaža"
+      text: "Sistem brez vijakov — namestite ali odstranite kombi box v minutah. Brez orodja, brez zapletov."
+    - icon: "📦"
+      title: "Modularna zasnova"
+      text: "Izberite kombinacijo škatل, ki ustreza vašim potrebam. Razširite sistem kadarkoli."
+    - icon: "🔒"
+      title: "Varno in stabilno"
+      text: "Zaklepni sistem prepreči premikanje tovora med vožnjo. Vaš tovor ostane tam, kjer ga nameščate."
+    - icon: "🚐"
+      title: "Primerno za vse kombije"
+      text: "Kompatibilno z večino vozil na trgu. Preverite seznam podprtih modelov."
+    - icon: "♻️"
+      title: "Trajni materiali"
+      text: "Izdelano iz odpornih materialov, ki zdržijo zahtevne delovne pogoje leto za letom."
+    - icon: "🎨"
+      title: "Po meri"
+      text: "Izberite barvo in konfiguracijo, ki ustreza vašemu delu in vozilu."
+
+gallery:
+  title: "Galerija"
+  subtitle: "Kombi Box v akciji."
+  images:
+    - src: "/assets/images/gallery-1.jpg"
+      alt: "Kombi box namescen v kombiju"
+      caption: "Izvlečna predala"
+    - src: "/assets/images/gallery-2.jpg"
+      alt: "Detajl zaklopa"
+      caption: "Hladilnik v sredini"
+    - src: "/assets/images/gallery-4.jpg"
+      alt: "Sneto stanje"
+      caption: "Noge, prilagojene konfiguraciji vozila"
+    - src: "/assets/images/gallery-5.jpg"
+      alt: "Tovor v skatlah"
+      caption: "Izvlečna postelja"
+    - src: "/assets/images/gallery-3.jpg"
+      alt: "Dvojna konfiguracija"
+      caption: "Po meri vašega vozila"
+      portrait: true
+    - src: "/assets/images/gallery-6.jpg"
+      alt: "Razlicne barve"
+      caption: "Minimalistčen design za maksimalno udobje in fukcionalnost."
+      portrait: true
+
+contact:
+  title: "Povpraševanje"
+  subtitle: "Imate vprašanje ali želite naročilo? Pišite nam."
+  name_label: "Ime in priimek"
+  name_placeholder: "Samo Popotnik"
+  email_label: "E-poštni naslov"
+  email_placeholder: "samo.popotnik@gmail.com"
+  phone_label: "Telefonska številka (neobvezno)"
+  phone_placeholder: "+386 XX XXX XXX"
+  vehicle_label: "Model vozila"
+  vehicle_placeholder: "npr. Volkswagen Transporter T6"
+  message_label: "Sporočilo"
+  message_placeholder: "Opišite vaše potrebe ali postavite vprašanje..."
+  submit: "Pošlji povpraševanje"
+  success: "Hvala! Vaše sporočilo je bilo poslano. Odgovorili vam bomo v najkrajšem možnem času."
+
+footer:
+  tagline: "Kombi boxi po meri."
+  copyright: "Vse pravice pridržane."

@@ -1,0 +1,30 @@
+{% assign lang = page.lang | default: 'sl' %}
+{% assign t = site.data[lang] %}
+
+<header class="site-header" role="banner">
+  <div class="container">
+    <a href="{% if lang == 'en' %}/en/{% else %}/{% endif %}" class="site-logo" aria-label="Kombi Box - domov">
+      <img src="/assets/images/favicon.png" alt="" class="logo-icon" width="32" height="32">
+      <span class="logo-text">Kombi<strong>Box</strong></span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Odpri meni" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="nav-menu" role="navigation" aria-label="Glavna navigacija">
+      <ul>
+        <li><a href="#features">{{ t.nav.features }}</a></li>
+        <li><a href="#gallery">{{ t.nav.gallery }}</a></li>
+        <li><a href="#contact">{{ t.nav.contact }}</a></li>
+        <li class="lang-switch">
+          <a href="{{ t.nav.lang_switch_url }}" hreflang="{% if lang == 'en' %}sl{% else %}en{% endif %}">
+            🌐 {{ t.nav.lang_switch }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

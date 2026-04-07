@@ -1,0 +1,54 @@
+title: "Kombi Box"
+description: "Prenosen in funkcionalen kombi box, za največje udobje na poti."
+description_en: "Modular, removable storage boxes for van cargo organisation."
+baseurl: ""
+url: "https://www.kombi-box.si"   # <- zamenjaj s svojo domeno
+
+author: "Kombi Box"
+email: "denis.stonic@gmail.com"        # <- zamenjaj s svojim e-poštnim naslovom
+phone: "+386 41 745 535"           # <- zamenjaj s svojo telefonsko številko
+
+# Formspree endpoint za kontaktni obrazec
+# Registriraj se na formspree.io in zamenjaj z lastnim endpoint-om
+formspree_id: "YOUR_FORMSPREE_ID"
+
+# Jekyll nastavitve
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Izključi iz builda
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - .sass-cache
+  - .jekyll-cache
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Privzeti layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "sl"
+  - scope:
+      path: "en"
+    values:
+      layout: "default"
+      lang: "en"
+
+# SEO
+twitter:
+  username: ""
+social:
+  name: "Kombi Box"
+  links: []

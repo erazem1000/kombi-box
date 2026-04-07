@@ -1,0 +1,83 @@
+# English translations
+
+nav:
+  home: "Home"
+  features: "Features"
+  gallery: "Gallery"
+  contact: "Contact"
+  lang_switch: "Slovensko"
+  lang_switch_url: "/"
+
+hero:
+  headline: "More Space. More Order."
+  subheadline: "Removable modular storage boxes for vans — cargo organisation that works with you."
+  cta_primary: "Request a Quote"
+  cta_secondary: "View Gallery"
+
+features:
+  title: "Why Kombi Box?"
+  subtitle: "Designed for those who value order, time, and quality."
+  items:
+    - icon: "🔧"
+      title: "Easy Installation"
+      text: "A screw-free system — install or remove a Kombi Box in minutes. No tools, no hassle."
+    - icon: "📦"
+      title: "Modular Design"
+      text: "Choose the box combination that fits your needs. Expand the system at any time."
+    - icon: "🔒"
+      title: "Secure and Stable"
+      text: "The locking system prevents cargo from shifting during transport. Your load stays exactly where you put it."
+    - icon: "🚐"
+      title: "Fits All Vans"
+      text: "Compatible with most vehicles on the market. Check the list of supported models."
+    - icon: "♻️"
+      title: "Durable Materials"
+      text: "Built from tough materials that withstand demanding work conditions year after year."
+    - icon: "🎨"
+      title: "Customisable"
+      text: "Choose the colour and configuration that suits your work and your vehicle."
+
+gallery:
+  title: "Gallery"
+  subtitle: "Kombi Box in action."
+  images:
+    - src: "/assets/images/gallery-1.jpg"
+      alt: "Kombi box installed in a van"
+      caption: "Pull-out drawers"
+    - src: "/assets/images/gallery-2.jpg"
+      alt: "Fridge in the middle"
+      caption: "Fridge in the centre"
+    - src: "/assets/images/gallery-4.jpg"
+      alt: "Legs adapted to vehicle"
+      caption: "Legs adapted to your vehicle"
+    - src: "/assets/images/gallery-5.jpg"
+      alt: "Pull-out bed"
+      caption: "Pull-out bed"
+    - src: "/assets/images/gallery-3.jpg"
+      alt: "Custom configuration"
+      caption: "Tailored to your vehicle"
+      portrait: true
+    - src: "/assets/images/gallery-6.jpg"
+      alt: "Built-in fridge"
+      caption: "With easily integrated fridge."
+      portrait: true
+
+contact:
+  title: "Enquiry"
+  subtitle: "Have a question or want to place an order? Write to us."
+  name_label: "Full Name"
+  name_placeholder: "John Smith"
+  email_label: "Email Address"
+  email_placeholder: "john@example.com"
+  phone_label: "Phone Number (optional)"
+  phone_placeholder: "+386 XX XXX XXX"
+  vehicle_label: "Vehicle Model"
+  vehicle_placeholder: "e.g. Volkswagen Transporter T6"
+  message_label: "Message"
+  message_placeholder: "Describe your needs or ask a question..."
+  submit: "Send Enquiry"
+  success: "Thank you! Your message has been sent. We will respond within 24 hours."
+
+footer:
+  tagline: "Modular storage boxes for vans."
+  copyright: "All rights reserved."

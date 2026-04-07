@@ -1,0 +1,29 @@
+{% assign lang = page.lang | default: 'sl' %}
+{% assign t = site.data[lang] %}
+
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-header">
+      <h2>{{ t.gallery.title }}</h2>
+      <p class="section-subtitle">{{ t.gallery.subtitle }}</p>
+    </div>
+
+    <div class="gallery-grid">
+      {% for image in t.gallery.images %}
+      <div class="gallery-item{% if image.portrait %} gallery-item--portrait{% endif %}">
+        <div class="gallery-image-wrap">
+          <img
+            src="{{ image.src }}"
+            alt="{{ image.alt }}"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('img-placeholder')"
+          >
+        </div>
+        {% if image.caption %}
+        <p class="gallery-caption">{{ image.caption }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

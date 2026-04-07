@@ -1,0 +1,101 @@
+{% assign lang = page.lang | default: 'sl' %}
+{% assign t = site.data[lang] %}
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header section-header--light">
+      <h2>{{ t.contact.title }}</h2>
+      <p class="section-subtitle">{{ t.contact.subtitle }}</p>
+    </div>
+
+    <div class="contact-wrapper">
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/{{ site.formspree_id }}"
+        method="POST"
+        novalidate
+      >
+        <!-- Language hidden field -->
+        <input type="hidden" name="_language" value="{{ page.lang | default: 'sl' }}">
+        <!-- Spam protection -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <div class="form-row form-row--half">
+          <div class="form-group">
+            <label for="name">{{ t.contact.name_label }} <span class="required">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="{{ t.contact.name_placeholder }}"
+              required
+              autocomplete="name"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email">{{ t.contact.email_label }} <span class="required">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="{{ t.contact.email_placeholder }}"
+              required
+              autocomplete="email"
+            >
+          </div>
+        </div>
+
+        <div class="form-row form-row--half">
+          <div class="form-group">
+            <label for="phone">{{ t.contact.phone_label }}</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="{{ t.contact.phone_placeholder }}"
+              autocomplete="tel"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="vehicle">{{ t.contact.vehicle_label }}</label>
+            <input
+              type="text"
+              id="vehicle"
+              name="vehicle"
+              placeholder="{{ t.contact.vehicle_placeholder }}"
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">{{ t.contact.message_label }} <span class="required">*</span></label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="{{ t.contact.message_placeholder }}"
+            required
+          ></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button
+            type="submit"
+            class="btn btn-primary btn-large"
+            data-label="{{ t.contact.submit }}"
+          >
+            {{ t.contact.submit }}
+          </button>
+        </div>
+      </form>
+
+      <!-- Success message -->
+      <div id="form-success" class="form-success" style="display:none;" role="alert">
+        <div class="success-icon">✅</div>
+        <p>{{ t.contact.success }}</p>
+      </div>
+    </div>
+  </div>
+</section>

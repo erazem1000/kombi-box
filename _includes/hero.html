@@ -1,0 +1,31 @@
+{% assign lang = page.lang | default: 'sl' %}
+{% assign t = site.data[lang] %}
+
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <!-- Zamenjaj z lastno fotografijo kombija z boxom -->
+    <img
+      src="/assets/images/hero-bg.jpg"
+      alt="Kombi Box - modularne snemljive škatle za kombije"
+      class="hero-image"
+      loading="eager"
+    >
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">Kombi Box</div>
+      <h1 class="hero-headline">{{ t.hero.headline }}</h1>
+      <p class="hero-subheadline">{{ t.hero.subheadline }}</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">{{ t.hero.cta_primary }}</a>
+        <a href="#gallery" class="btn btn-secondary">{{ t.hero.cta_secondary }}</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-indicator" aria-hidden="true">
+    <span></span>
+  </div>
+</section>
