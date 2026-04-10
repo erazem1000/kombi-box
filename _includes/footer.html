@@ -26,7 +26,9 @@
         <a href="#features">{{ t.nav.features }}</a>
         <a href="#gallery">{{ t.nav.gallery }}</a>
         <a href="#contact">{{ t.nav.contact }}</a>
-        <a href="{{ t.nav.lang_switch_url }}">{{ t.nav.lang_switch }}</a>
+        {% for link in t.nav.lang_links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
       </div>
 
     </div>

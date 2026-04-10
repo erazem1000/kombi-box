@@ -1,0 +1,88 @@
+# German translations
+
+nav:
+  home: "Startseite"
+  features: "Vorteile"
+  gallery: "Galerie"
+  contact: "Kontakt"
+  lang_links:
+    - label: "Slovensko"
+      url: "/"
+      hreflang: "sl"
+    - label: "English"
+      url: "/en/"
+      hreflang: "en"
+
+hero:
+  headline: "Mehr Platz. Mehr Ordnung."
+  subheadline: "Abnehmbare modulare Aufbewahrungsboxen für Transporter — Ladungsorganisation, die mit Ihnen arbeitet."
+  cta_primary: "Angebot anfragen"
+  cta_secondary: "Galerie ansehen"
+
+features:
+  title: "Warum Kombi Box?"
+  subtitle: "Designed für alle, die Ordnung, Zeit und Qualität schätzen."
+  items:
+    - icon: "🔧"
+      title: "Einfache Montage"
+      text: "Ein schraubenfreies System — Kombi Box in Minuten montieren oder entfernen. Kein Werkzeug, kein Aufwand."
+    - icon: "📦"
+      title: "Modulares Design"
+      text: "Wählen Sie die Box-Kombination, die Ihren Bedürfnissen entspricht. Das System jederzeit erweitern."
+    - icon: "🔒"
+      title: "Sicher und stabil"
+      text: "Das Verschlusssystem verhindert das Verrutschen der Ladung während des Transports. Ihr Gepäck bleibt genau dort, wo Sie es platziert haben."
+    - icon: "🚐"
+      title: "Für alle Transporter"
+      text: "Kompatibel mit den meisten Fahrzeugen auf dem Markt. An Ihr Fahrzeug individuell angepasst."
+    - icon: "♻️"
+      title: "Langlebige Materialien"
+      text: "Aus robusten Materialien gefertigt, die anspruchsvollen Arbeitsbedingungen standhalten."
+    - icon: "🎨"
+      title: "Individuell anpassbar"
+      text: "Wählen Sie Farbe und Konfiguration, die zu Ihrer Arbeit und Ihrem Fahrzeug passen."
+
+gallery:
+  title: "Galerie"
+  subtitle: "Kombi Box in Aktion."
+  images:
+    - src: "/assets/images/gallery-1.jpg"
+      alt: "Kombi Box in einem Transporter installiert"
+      caption: "Ausziehbare Schubladen"
+    - src: "/assets/images/gallery-2.jpg"
+      alt: "Kühlschrank in der Mitte"
+      caption: "Kühlschrank in der Mitte"
+    - src: "/assets/images/gallery-4.jpg"
+      alt: "Beine angepasst ans Fahrzeug"
+      caption: "Beine an Ihr Fahrzeug angepasst"
+    - src: "/assets/images/gallery-5.jpg"
+      alt: "Ausziehbares Bett"
+      caption: "Ausziehbares Bett"
+    - src: "/assets/images/gallery-3.jpg"
+      alt: "Individuelle Konfiguration"
+      caption: "Auf Ihr Fahrzeug zugeschnitten"
+      portrait: true
+    - src: "/assets/images/gallery-6.jpg"
+      alt: "Eingebauter Kühlschrank"
+      caption: "Mit leicht integriertem Kühlschrank."
+      portrait: true
+
+contact:
+  title: "Anfrage"
+  subtitle: "Haben Sie eine Frage oder möchten Sie eine Bestellung aufgeben? Schreiben Sie uns."
+  name_label: "Vollständiger Name"
+  name_placeholder: "Max Mustermann"
+  email_label: "E-Mail-Adresse"
+  email_placeholder: "max@beispiel.de"
+  phone_label: "Telefonnummer (optional)"
+  phone_placeholder: "+49 XXX XXXXXXX"
+  vehicle_label: "Fahrzeugmodell"
+  vehicle_placeholder: "z.B. Volkswagen Transporter T6"
+  message_label: "Nachricht"
+  message_placeholder: "Beschreiben Sie Ihre Bedürfnisse oder stellen Sie eine Frage..."
+  submit: "Anfrage senden"
+  success: "Danke! Ihre Nachricht wurde gesendet. Wir werden innerhalb von 24 Stunden antworten."
+
+footer:
+  tagline: "Modulare Aufbewahrungsboxen für Transporter."
+  copyright: "Alle Rechte vorbehalten."

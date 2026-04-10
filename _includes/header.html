@@ -3,7 +3,7 @@
 
 <header class="site-header" role="banner">
   <div class="container">
-    <a href="{% if lang == 'en' %}/en/{% else %}/{% endif %}" class="site-logo" aria-label="Kombi Box - domov">
+    <a href="{% if lang == 'en' %}/en/{% elsif lang == 'de' %}/de/{% else %}/{% endif %}" class="site-logo" aria-label="Kombi Box - domov">
       <img src="/assets/images/favicon.png" alt="" class="logo-icon" width="32" height="32">
       <span class="logo-text">Kombi<strong>Box</strong></span>
     </a>
@@ -19,10 +19,15 @@
         <li><a href="#features">{{ t.nav.features }}</a></li>
         <li><a href="#gallery">{{ t.nav.gallery }}</a></li>
         <li><a href="#contact">{{ t.nav.contact }}</a></li>
-        <li class="lang-switch">
-          <a href="{{ t.nav.lang_switch_url }}" hreflang="{% if lang == 'en' %}sl{% else %}en{% endif %}">
-            🌐 {{ t.nav.lang_switch }}
-          </a>
+        <li class="lang-dropdown">
+          <button class="lang-toggle" aria-expanded="false" aria-haspopup="true">
+            🌐 <span>{{ lang | upcase }}</span>
+          </button>
+          <ul class="lang-menu" role="menu">
+            <li role="none"><a href="/" hreflang="sl" role="menuitem"{% if lang == 'sl' %} class="active"{% endif %}>Slovensko</a></li>
+            <li role="none"><a href="/en/" hreflang="en" role="menuitem"{% if lang == 'en' %} class="active"{% endif %}>English</a></li>
+            <li role="none"><a href="/de/" hreflang="de" role="menuitem"{% if lang == 'de' %} class="active"{% endif %}>Deutsch</a></li>
+          </ul>
         </li>
       </ul>
     </nav>

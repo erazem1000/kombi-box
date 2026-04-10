@@ -5,8 +5,13 @@ nav:
   features: "Features"
   gallery: "Gallery"
   contact: "Contact"
-  lang_switch: "Slovensko"
-  lang_switch_url: "/"
+  lang_links:
+    - label: "Slovensko"
+      url: "/"
+      hreflang: "sl"
+    - label: "Deutsch"
+      url: "/de/"
+      hreflang: "de"
 
 hero:
   headline: "More Space. More Order."

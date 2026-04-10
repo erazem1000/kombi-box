@@ -1,6 +1,7 @@
 title: "Kombi Box"
 description: "Prenosen in funkcionalen kombi box, za največje udobje na poti."
 description_en: "Modular, removable storage boxes for van cargo organisation."
+description_de: "Modulare, abnehmbare Aufbewahrungsboxen für Transporter."
 baseurl: ""
 url: "https://www.kombibox.si"   # <- zamenjaj s svojo domeno
 
@@ -45,6 +46,11 @@ defaults:
     values:
       layout: "default"
       lang: "en"
+  - scope:
+      path: "de"
+    values:
+      layout: "default"
+      lang: "de"
 
 # SEO
 twitter:
