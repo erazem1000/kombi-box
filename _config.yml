@@ -2,7 +2,7 @@ title: "Kombi Box"
 description: "Prenosen in funkcionalen kombi box, za največje udobje na poti."
 description_en: "Modular, removable storage boxes for van cargo organisation."
 baseurl: ""
-url: "https://www.kombi-box.si"   # <- zamenjaj s svojo domeno
+url: "https://www.kombibox.si"   # <- zamenjaj s svojo domeno
 
 author: "Kombi Box"
 email: "denis.stonic@gmail.com"        # <- zamenjaj s svojim e-poštnim naslovom
@@ -10,7 +10,7 @@ phone: "+386 41 745 535"           # <- zamenjaj s svojo telefonsko številko
 
 # Formspree endpoint za kontaktni obrazec
 # Registriraj se na formspree.io in zamenjaj z lastnim endpoint-om
-formspree_id: "YOUR_FORMSPREE_ID"
+formspree_id: "mbdpvaqb"
 
 # Jekyll nastavitve
 markdown: kramdown
